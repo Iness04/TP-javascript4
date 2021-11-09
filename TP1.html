@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<script language="javascript">
+	function permuter(){
+		var X= document.fo.a.value
+		document.fo.a.value=document.fo.b.value;
+		document.fo.b.value=X
+
+	}
+</script>
+
+</head>
+<body>
+	<form name="fo">
+		<input type="text" name="a"/><br/>
+		<input type="text" name="b"/><br/>
+		<input type="button" value="Permuter" onclick="permuter()"/>
+	</form>
+</body>
+</html>
